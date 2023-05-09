@@ -3,7 +3,7 @@ Proyecto TEL-335 Diseño de Aplicaciones Web y Moviles
 
 ## Descripción
 
-Esta proyecto se especializa en ofrecer recomendaciones personalizadas de peces para acuarios. Los usuarios pueden ingresar los parámetros de su acuario, como el tamaño del tanque, el pH del agua, la temperatura y la dureza del agua. A partir de esta información, la página web utiliza una base de datos de peces y su compatibilidad con diferentes parámetros del agua para recomendar peces que puedan vivir en ese entorno. 
+Esta busca ofrecer recomendaciones personalizadas de peces para acuarios. Los usuarios pueden ingresar los parámetros de su acuario, como el tamaño del tanque, el pH del agua, la temperatura y la dureza del agua. A partir de esta información, la página web utiliza una base de datos de peces y su compatibilidad con diferentes parámetros del agua para recomendar peces que puedan vivir en ese entorno. 
 La página web puede proporcionar información detallada sobre cada especie de pez recomendada, incluyendo sus requisitos de alimentación, tamaño, hábitos y comportamiento.
 
 ## Video Avances
