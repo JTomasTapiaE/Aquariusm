@@ -41,7 +41,8 @@ recordRoutes.route("/Fish/add").post(function (req, response) {
   let db_connect = dbo.getDb();
   let myobj = {
     name: req.body.name,
-    temperature: req.body.temperature,
+    MinTemperature: req.body.MinTemperature,
+    MaxTemperature: req.body.MaxTemperature,
     size: req.body.size,
   };
   db_connect.collection("Fish").insertOne(myobj, function (err, res) {
@@ -57,7 +58,8 @@ recordRoutes.route("/update/:id").post(function (req, response) {
   let newvalues = {
     $set: {
       name: req.body.name,
-      temperature: req.body.temperature,
+      MinTemperature: req.body.MinTemperature,
+      MaxTemperature: req.body.MaxTemperature,
       size: req.body.size,
     },
   };

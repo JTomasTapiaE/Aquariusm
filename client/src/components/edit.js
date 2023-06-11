@@ -4,7 +4,8 @@ import { useParams, useNavigate } from "react-router";
 export default function Edit() {
  const [form, setForm] = useState({
    name: "",
-   temperature: "",
+   MaxTemperature:"",
+   MinTemperature: "",
    size: "",
    fish: [],
  });
@@ -48,7 +49,8 @@ export default function Edit() {
     e.preventDefault();
     const editedPerson = {
       name: form.name,
-      temperature: form.temperature,
+      MinTemperature: form.MinTemperature,
+      MaxTemperature: form.MaxTemperature,
       size: form.size,
     };
   
@@ -82,13 +84,23 @@ export default function Edit() {
 
 
         <div className="form-group">
-          <label htmlFor="temperature">temperature</label>
+          <label htmlFor="MinTemperature">MinTemperature</label>
           <input
             type="text"
             className="form-control"
-            id="temperature"
-            value={form.temperature}
-            onChange={(e) => updateForm({ temperature: e.target.value })}
+            id="MinTemperature"
+            value={form.MinTemperature}
+            onChange={(e) => updateForm({ MinTemperature: e.target.value })}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="MaxTemperature">MaxTemperature</label>
+          <input
+            type="text"
+            className="form-control"
+            id="MaxTemperature"
+            value={form.MaxTemperature}
+            onChange={(e) => updateForm({ MaxTemperature: e.target.value })}
           />
         </div>
 

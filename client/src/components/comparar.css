@@ -1,0 +1,36 @@
+.form-container {
+    max-width: 1200px; /* Ajusta el ancho máximo del formulario según tus necesidades */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c2d9e2;
+    border: 10px solid #dddcf3;
+  }
+  
+  .form-field-container {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%; /* Haz que los campos del formulario ocupen todo el ancho disponible */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #b7f5ff;
+    color: #000000;
+    width: 100%;
+    margin-top: 40px;
+    border: 10px solid #dddcf3;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
