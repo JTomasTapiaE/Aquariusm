@@ -8,9 +8,10 @@ La página web puede proporcionar información detallada sobre cada especie de p
 
 ## Video Avances
 Video 1 ([Avance 1](https://usmcl-my.sharepoint.com/:v:/g/personal/ignacio_munozm_usm_cl/ESbZuBU9QhVHtXDVkSiwqEYBCygsZyEVuDY7zunX_MUMgA?e=Vp26Yd))
+Video 1 ([Avance 1](https://1drv.ms/v/s!Ak9iMxaJJwLAh6Ug1H6AzMDleYiz_Q?e=ROFtdb))
 ## integrantes
 - Oscar Martin Carrasco Reyez
-- Eduardo Blas Gomez
+- Eduardo Blas Gomezhttps://github.com/JTomasTapiaE/Aquariusm
 - Ignacio Muñoz Martinez
 - José Tomás Tapia
 
