@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+import "./create.css";
  
 export default function Create() {
  const [form, setForm] = useState({
   name: "",
-  temperature: "",
+  MinTemperature: "",
+  MaxTemperature:"",
   size: "",
  });
  const navigate = useNavigate();
@@ -35,19 +37,20 @@ export default function Create() {
      return;
    });
  
-   setForm({ name: "",temperature: "",size: "" });
+   setForm({ name: "",MinTemperature: "",MaxTemperature:"", size: "" });
    navigate("/");
  }
  
  // This following section will display the form that takes the input from the user.
  return (
+  <div className="form-container">
    <div>
-     <h3>Add New Fish</h3>
+    <div><h3>Agrega un nuevo pez</h3></div>
      <form onSubmit={onSubmit}>
 
 
        <div className="form-group">
-         <label htmlFor="name">Name</label>
+         <label htmlFor="name" alignment>Especie</label>
          <input
            type="text"
            className="form-control"
@@ -59,19 +62,29 @@ export default function Create() {
 
 
        <div className="form-group">
-         <label htmlFor="temperature">temperature</label>
+         <label htmlFor="MinTemperature">Temperatura Minima</label>
          <input
            type="text"
            className="form-control"
-           id="temperature"
-           value={form.temperature}
-           onChange={(e) => updateForm({ temperature: e.target.value })}
+           id="MinTemperature"
+           value={form.MinTemperature}
+           onChange={(e) => updateForm({ MinTemperature: e.target.value })}
+         />
+       </div>
+       <div className="form-group">
+         <label htmlFor="MaxTemperature">Temperatura Maxima</label>
+         <input
+           type="text"
+           className="form-control"
+           id="MaxTemperature"
+           value={form.MaxTemperature}
+           onChange={(e) => updateForm({ MaxTemperature: e.target.value })}
          />
        </div>
 
 
        <div className="form-group">
-         <label htmlFor="size">size</label>
+         <label htmlFor="size">Tamano</label>
          <input
            type="text"
            className="form-control"
@@ -81,14 +94,16 @@ export default function Create() {
          />
        </div>
      
-       <div className="form-group">
+       <div className="form-group button-container">
          <input
            type="submit"
            value="Create Fish"
+           alignment="right"
            className="btn btn-primary"
          />
        </div>
      </form>
+   </div>
    </div>
  );
 }
