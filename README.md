@@ -11,7 +11,7 @@ La página web puede proporcionar información detallada sobre cada especie de p
 - Video 2 ([Avance 2](https://1drv.ms/v/s!Ak9iMxaJJwLAh6Ug1H6AzMDleYiz_Q?e=ROFtdb))
 ## integrantes
 - Oscar Martin Carrasco Reyez
-- Eduardo Blas Gomezhttps://github.com/JTomasTapiaE/Aquariusm
+- Eduardo Blas Gomez
 - Ignacio Muñoz Martinez
 - José Tomás Tapia
 
